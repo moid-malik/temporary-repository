@@ -1,0 +1,11 @@
+Test ID,Module,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Date Tested
+TC001,Environment Setup,Verify Next.js environment variables loading,1. Check NEXT_PUBLIC_SANITY_PROJECT_ID 2. Verify SANITY_TOKEN accessibility,Environment variables loaded successfully,Variables loaded and accessible,PASS,2024-01-20
+TC002,Sanity Integration,Test Sanity CMS connection,1. Initialize Sanity client 2. Execute test query,Successful connection to Sanity backend,Connected successfully,PASS,2024-01-20
+TC003,Product Fetching,Verify product data retrieval,1. Call fetchProducts() 2. Check product array population,Products array populated with data,Data retrieved correctly,PASS,2024-01-20
+TC004,Product Display,Test product grid rendering,1. Load feature-products component 2. Verify grid layout,Products displayed in responsive grid,Grid rendered properly,PASS,2024-01-20
+TC005,Animation,Verify motion animations,1. Check product card animations 2. Test text animations,Smooth animations on scroll,Animations working as designed,PASS,2024-01-20
+TC006,Loading State,Test loader component,1. Clear product data 2. Verify loader display,Loader shown when data is loading,Loader displayed correctly,PASS,2024-01-20
+TC007,Responsive Design,Check responsive layout,1. Test mobile view 2. Test tablet view 3. Test desktop view,Layout adapts to all screen sizes,Responsive design working,PASS,2024-01-20
+TC008,Authentication,Verify Clerk authentication,1. Test auth initialization 2. Check auth state,Authentication system functional,Auth working properly,PASS,2024-01-20
+TC009,Payment Integration,Test Stripe integration,1. Verify Stripe key loading 2. Test payment flow,Payment system initialized correctly,Payment system functional,PASS,2024-01-20
+TC010,Shipping,Test ShipEngine integration,1. Verify API key 2. Test shipping calculations,Shipping calculations accurate,Shipping system working,PASS,2024-01-20
